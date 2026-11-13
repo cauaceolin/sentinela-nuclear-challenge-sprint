@@ -1,5 +1,5 @@
 ##  **1. Contexto do Problema**
-Ambientes críticos exitgem monitoramento cntínuo, capacidade de identificar situação anormais e acompanhamento adequado de ocorrências que possam comprometer a segurança e a integridade operacional.
+Ambientes críticos exitgem monitoramento contínuo, capacidade de identificar situação anormais e acompanhamento adequado de ocorrências que possam comprometer a segurança e a integridade operacional.
 
 Para isso, diferentes fontes de monitoramento, como câmeras, sensores ambientais , dispositivos de controle de acesso e sistemas de inspeção, podem gerar informações relevantes sobre as condições e atividades desses ambientes.
 
