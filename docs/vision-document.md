@@ -1,15 +1,16 @@
-##  **1. Contexto do Problema**
-Ambientes críticos exitgem monitoramento cntínuo, capacidade de identificar situação anormais e acompanhamento adequado de ocorrências que possam comprometer a segurança e a integridade operacional.
+## **1. Contexto do Problema**
 
-Para isso, diferentes fontes de monitoramento, como câmeras, sensores ambientais , dispositivos de controle de acesso e sistemas de inspeção, podem gerar informações relevantes sobre as condições e atividades desses ambientes.
+Ambientes críticos exigem monitoramento contínuo, capacidade de identificar situações anormais e acompanhamento adequado de ocorrências que possam comprometer a segurança e a integridade operacional.
 
-Entretanto, a utilização de múltiplas fontes de informação apresenta desafios relacoonados à fragmentação dos dados, à identificação de anomalias e à correlação de eventos. Informações provenientes de dispositivos distintos podem ser analisadas separadamente, dificultando a contrução de uma visão abrangente e contextualizada de determinadas situações.
+Para isso, diferentes fontes de monitoramento, como câmeras, sensores ambientais, dispositivos de controle de acesso e sistemas de inspeção, podem gerar informações relevantes sobre as condições e atividades desses ambientes.
 
-Além disso, a identificação deeventos fora dos padrões estabelecidos e a associação entre as ocorrências relacionadas podem exigir reforço significativo dos operadores responsáveis pelo monitoramento, especialemente quando há grande volume de informações a serem analisadas.
+Entretanto, a utilização de múltiplas fontes de informação apresenta desafios relacionados à fragmentação dos dados, à identificação de anomalias e à correlação de eventos. Informações provenientes de dispositivos distintos podem ser analisadas separadamente, dificultando a construção de uma visão abrangente e contextualizada de determinadas situações.
 
-Diante desse cenário, identifica-se a necessidade de uma solução capaz de centralizar dados de diferentes fontes, detectar automaticamente eventos que apresentam comportamentos fora dos parâmetros definifos e correlacionar ocorrências com base em critérios como horário, localização, tipo de evento e origem da informação.
+Além disso, a identificação de eventos fora dos padrões estabelecidos e a associação entre ocorrências relacionadas podem exigir esforço significativo dos operadores responsáveis pelo monitoramento, especialmente quando há grande volume de informações a serem analisadas.
 
-O projeto Sentinela surge como uma proposta de plataforma inteligente de monitoramento e detecção de anomalias, com o objetivo de transformar dados dispersos em informações organizadas e alertas contextualizados, apoiando a análise e a tomada de decisão dos operadores humanos. 
+Diante desse cenário, identifica-se a necessidade de uma solução capaz de centralizar dados de diferentes fontes, detectar automaticamente eventos que apresentem comportamentos fora dos parâmetros definidos e correlacionar ocorrências com base em critérios como horário, localização, tipo de evento e origem da informação.
+
+O projeto Sentinela surge como uma proposta de plataforma inteligente de monitoramento e detecção de anomalias, com o objetivo de transformar dados dispersos em informações organizadas e alertas contextualizados, apoiando a análise e a tomada de decisão dos operadores humanos.
 
 
 ## **Stakeholders**
@@ -48,13 +49,12 @@ Os requisitos não funcionais estabelecem características de qualidade, desempe
 
 | ID | Requisito | Descrição |
 |---|---|---|
-| RNF01 | Usabilidade | A interface deve apresentar informações de maneira clara e organizada. |
-| RNF02 | Desempenho | O sistema deve processar os eventos simulados e apresentar os resultados em tempo adequado para a demonstração. |
-| RNF03 | Segurança | O acesso às funcionalidades administrativas deve ser controlado. |
-| RNF04 | Rastreabilidade | O sistema deve manter registros das ocorrências e das decisões realizadas pelos operadores. |
-| RNF05 | Manutenibilidade | A arquitetura deve permitir alterações e inclusão de novas fontes de dados e regras de detecção. |
-| RNF06 | Confiabilidade | O sistema deve tratar entradas inválidas e falhas de processamento sem comprometer o funcionamento geral do protótipo. |
-
+| RNF01 | Usabilidade | A interface deve apresentar informações de maneira clara e organizada, facilitando a compreensão e a utilização pelos operadores. |
+| RNF02 | Desempenho | O sistema deve processar eventos simulados e apresentar os alertas correspondentes em até 5 segundos após o recebimento do evento, considerando as condições do ambiente de demonstração. |
+| RNF03 | Segurança | O acesso às funcionalidades administrativas deve exigir autenticação, restringindo sua utilização a usuários autorizados. |
+| RNF04 | Rastreabilidade | O sistema deve manter registros das ocorrências e das decisões realizadas pelos operadores, permitindo consultas posteriores. |
+| RNF05 | Manutenibilidade | A arquitetura deve permitir alterações e inclusão de novas fontes de dados e regras de detecção sem exigir modificações significativas em toda a aplicação. |
+| RNF06 | Confiabilidade | O sistema deve identificar e tratar entradas inválidas e falhas de processamento sem interromper o processamento dos demais eventos recebidos. |
 
 ## **Escopo do Projeto**
 
