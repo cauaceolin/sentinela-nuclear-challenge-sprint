@@ -149,4 +149,34 @@ A implementação do SENTINELA poderá proporcionar os seguintes benefícios con
 O protótipo de baixa fidelidade foi desenvolvido no Figma com o objetivo de representar a organização das principais funcionalidades e a experiência de utilização da plataforma.
 
 Ele é composto por quatro telas principais:
+
+## **10.1 Dashboard**
+Apresenta indicadores gerais, estado dos dispositivos monitorados e eventos recentes.
 <img width="940" height="605" alt="Dashboard" src="https://github.com/user-attachments/assets/4d98074a-46af-47c9-8d9c-3d222577b941" />
+
+## **10.2 Mapa de Monitoramento**
+Representa a instalação fictícia, suas zonas e a localização simulada dos dispositivos.
+<img width="932" height="608" alt="Mapa" src="https://github.com/user-attachments/assets/3ad3d31f-86da-478e-925f-cef5a3c18e44" /> 
+
+## **10.3 Central de Alertas**
+Apresenta ocorrências identificadas, prioridade, evidências e ações de confirmação ou descarte.
+<img width="933" height="620" alt="Alertas" src="https://github.com/user-attachments/assets/8adae0fd-29eb-4c1a-94eb-d9bc7c8702f7" />
+
+## **10.4 Histórico e Auditoria**
+Permite consultar ocorrências anteriores, decisões dos operadores e informações registradas.
+<img width="893" height="566" alt="Histórico" src="https://github.com/user-attachments/assets/6009a9c4-a474-47ad-8840-8c5018521a0c" />
+
+As imagens definitivas desta seção devem ser capturas das quatro telas que você construiu no Figma, não imagens ilustrativas. Inclua também uma breve legenda para cada captura.
+
+## **11. Conclusão**
+O projeto SENTINELA apresenta uma proposta de solução tecnológica voltada à centralização de informações, detecção de anomalias e correlação de eventos em ambientes críticos.
+
+A partir da identificação dos desafios relacionados à fragmentação de dados e à análise isolada de diferentes fontes de monitoramento, foi definida uma plataforma capaz de organizar informações, identificar possíveis situações anormais e apresentar alertas contextualizados para apoiar a atuação dos operadores.
+
+A definição dos stakeholders, requisitos funcionais e não funcionais, escopo e arquitetura conceitual estabelece uma base para o desenvolvimento das próximas etapas do projeto.
+
+O protótipo conceitual demonstra como as principais funcionalidades poderão ser organizadas em uma interface web, contemplando o acompanhamento de dispositivos, a visualização de alertas e a consulta ao histórico de ocorrências.
+
+Por se tratar de um projeto acadêmico, a validação inicial será realizada com dados simulados e arquivos demonstrativos, não representando uma solução certificada ou pronta para utilização em instalações reais.
+
+Assim, o SENTINELA busca demonstrar como a integração de diferentes fontes de informação, associada a mecanismos de análise e correlação de eventos, pode contribuir para um monitoramento mais organizado e para o apoio à tomada de decisão humana.
