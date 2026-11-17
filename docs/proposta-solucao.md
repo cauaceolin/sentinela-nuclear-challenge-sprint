@@ -1,4 +1,4 @@
-# **Proposta de Solução — SENTINELA**
+# Proposta de Solução — SENTINELA
 
 ## **1. Visão Geral**
 
