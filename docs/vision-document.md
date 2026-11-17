@@ -1,19 +1,37 @@
-## **1. Contexto do Problema**
+## **1. Introdução**
+O SENTINELA é uma proposta de plataforma inteligente de monitoramento, centralização de dados e detecção de anomalias em ambientes críticos.
 
-Ambientes críticos exigem monitoramento contínuo, capacidade de identificar situações anormais e acompanhamento adequado de ocorrências que possam comprometer a segurança e a integridade operacional.
+A solução tem como finalidade integrar informações provenientes de diferentes fontes de monitoramento, como câmeras, sensores e sistemas de controle de acesso, permitindo identificar eventos fora dos padrões estabelecidos e apresentar alertas contextualizados aos operadores.
 
-Para isso, diferentes fontes de monitoramento, como câmeras, sensores ambientais, dispositivos de controle de acesso e sistemas de inspeção, podem gerar informações relevantes sobre as condições e atividades desses ambientes.
+O projeto propõe a utilização de tecnologias como Internet das Coisas (IoT), visão computacional, processamento de dados e mecanismos de correlação de eventos para apoiar o acompanhamento de ocorrências e a tomada de decisão humana.
 
-Entretanto, a utilização de múltiplas fontes de informação apresenta desafios relacionados à fragmentação dos dados, à identificação de anomalias e à correlação de eventos. Informações provenientes de dispositivos distintos podem ser analisadas separadamente, dificultando a construção de uma visão abrangente e contextualizada de determinadas situações.
+Nesta primeira etapa, será desenvolvido um protótipo acadêmico utilizando dados simulados e arquivos demonstrativos, sem conexão com equipamentos ou instalações reais.
 
-Além disso, a identificação de eventos fora dos padrões estabelecidos e a associação entre ocorrências relacionadas podem exigir esforço significativo dos operadores responsáveis pelo monitoramento, especialmente quando há grande volume de informações a serem analisadas.
+## **2. Contexto do Problema/**
+Ambientes críticos exigem monitoramento contínuo e análise de informações provenientes de diferentes fontes. Entretanto, quando esses dados são apresentados de maneira isolada, torna-se mais difícil identificar relações entre eventos, reconhecer comportamentos fora do padrão e acompanhar ocorrências de forma centralizada.
 
-Diante desse cenário, identifica-se a necessidade de uma solução capaz de centralizar dados de diferentes fontes, detectar automaticamente eventos que apresentem comportamentos fora dos parâmetros definidos e correlacionar ocorrências com base em critérios como horário, localização, tipo de evento e origem da informação.
+Por exemplo, uma abertura inesperada de acesso pode parecer um evento isolado. Porém, quando relacionada a uma detecção de movimento em uma área restrita e a informações de sensores próximos, pode representar uma situação que merece investigação.
 
-O projeto Sentinela surge como uma proposta de plataforma inteligente de monitoramento e detecção de anomalias, com o objetivo de transformar dados dispersos em informações organizadas e alertas contextualizados, apoiando a análise e a tomada de decisão dos operadores humanos.
+A ausência de centralização e correlação dessas informações pode dificultar a identificação de situações anormais, aumentar o tempo de análise e prejudicar a rastreabilidade das ocorrências.
+
+Diante desse cenário, o SENTINELA propõe uma plataforma capaz de reunir dados de diferentes fontes, analisar eventos e apresentar alertas com informações relevantes para avaliação dos operadores.
+
+## **3. Objetivos da Solução**
+## **3.1 Objetivo geral**
+Desenvolver uma plataforma de monitoramento inteligente capaz de centralizar dados simulados de diferentes fontes, identificar anomalias e correlacionar eventos para gerar alertas contextualizados e apoiar a tomada de decisão humana em ambientes críticos.
+
+## **3.2 Objetivos específicos**
+- Centralizar informações provenientes de diferentes dispositivos e fontes de monitoramento.
+- Simular o recebimento de dados de sensores e equipamentos.
+- Analisar imagens e vídeos demonstrativos por meio de visão computacional.
+- Identificar eventos que estejam fora de padrões previamente definidos.
+- Correlacionar ocorrências considerando horário, localização e tipo de evento.
+- Gerar alertas com informações sobre origem, horário, localização e evidências.
+- Permitir que operadores analisem, confirmem ou descartem alertas.
+- Registrar ocorrências e decisões para consulta e auditoria.
 
 
-## **Stakeholders**
+## **4. Stakeholders**
 
 Os stakeholders do projeto Sentinela correspondem aos perfis de pessoas e grupos que possuem interesse, participação ou influência no funcionamento da solução proposta.
 
@@ -27,7 +45,8 @@ Os stakeholders do projeto Sentinela correspondem aos perfis de pessoas e grupos
 
 
 
-## **Requisitos Funcionais**
+## **5. Requisitos do Sistema**
+## **5.1 Requisitos funcionais**
 
 Os requisitos funcionais descrevem as funcionalidades que o sistema deverá disponibilizar aos seus usuários.
 
@@ -43,7 +62,7 @@ Os requisitos funcionais descrevem as funcionalidades que o sistema deverá disp
 | RF08 | Histórico de ocorrências | O sistema deve armazenar as ocorrências identificadas e as decisões dos operadores. |
 | RF09 | Visualização de monitoramento | O sistema deve apresentar indicadores e informações consolidadas em um dashboard. |
 
-## **Requisitos Não Funcionais**
+## **5.2 Requisitos Não Funcionais**
 
 Os requisitos não funcionais estabelecem características de qualidade, desempenho, segurança e utilização esperadas para o sistema.
 
@@ -56,57 +75,78 @@ Os requisitos não funcionais estabelecem características de qualidade, desempe
 | RNF05 | Manutenibilidade | A arquitetura deve permitir alterações e inclusão de novas fontes de dados e regras de detecção sem exigir modificações significativas em toda a aplicação. |
 | RNF06 | Confiabilidade | O sistema deve identificar e tratar entradas inválidas e falhas de processamento sem interromper o processamento dos demais eventos recebidos. |
 
-## **Escopo do Projeto**
+## **6. Proposta de Solução**
+O SENTINELA propõe uma aplicação web que centraliza informações de diferentes fontes de monitoramento e utiliza mecanismos de análise para identificar possíveis anomalias.
 
-O projeto Sentinela contempla o desenvolvimento de um protótipo acadêmico de uma plataforma web para centralização de dados, detecção de anomalias e correlação de eventos em ambientes críticos. A validação da solução será realizada por meio de dados simulados e arquivos demonstrativos, sem necessidade de equipamentos ou instalações reais.
+A solução será organizada em módulos:
+- Dashboard: apresenta indicadores gerais, dispositivos monitorados e eventos recentes.
+- Simulador de dispositivos: gera dados fictícios de sensores, câmeras e outros equipamentos.
+- Análise visual: utiliza visão computacional para analisar imagens e vídeos demonstrativos.
+- Detecção de anomalias: aplica regras e parâmetros para identificar eventos fora do padrão.
+- Correlação de eventos: relaciona ocorrências por horário, localização e contexto.
+- Central de alertas: apresenta ocorrências identificadas para análise dos operadores.
+- Histórico e auditoria: armazena eventos, classificações e decisões realizadas.
+A detecção será realizada de acordo com a natureza dos dados. Valores de sensores poderão ser analisados por regras e limites configurados, enquanto imagens e vídeos poderão ser processados por técnicas de visão computacional.
 
-### **Dentro do Escopo**
+A correlação permitirá relacionar eventos que, individualmente, poderiam parecer comuns, mas que, quando analisados em conjunto, podem indicar uma situação que merece atenção.
 
-- Desenvolvimento de uma aplicação web para monitoramento.
-- Criação de um dashboard com indicadores e status dos dispositivos.
-- Simulação de dados provenientes de sensores e dispositivos de monitoramento.
-- Análise de imagens e vídeos demonstrativos utilizando visão computacional.
-- Detecção de anomalias por meio de regras e parâmetros configuráveis.
-- Correlação de eventos considerando horário, localização e tipo de ocorrência.
-- Geração de alertas contextualizados.
-- Visualização de evidências e localização simulada das ocorrências.
-- Possibilidade de confirmação ou descarte de alertas pelo operador.
-- Registro do histórico de ocorrências e das decisões realizadas.
+A plataforma funcionará como ferramenta de apoio à decisão. A confirmação ou o descarte de uma ocorrência permanecerá sob responsabilidade do operador.
 
-### **Fora do Escopo**
-
-- Instalação e operação de sensores físicos em ambientes reais.
-- Controle de drones físicos ou execução de voos autônomos.
-- Integração com sistemas reais da AMAZUL ou da Marinha do Brasil.
-- Reconhecimento biométrico ou identificação facial.
-- Detecção ou diagnóstico de radiação por equipamentos reais.
-- Execução automática de ações físicas em resposta aos alertas.
-- Substituição da atuação dos profissionais responsáveis pela segurança.
-- Certificação ou homologação para utilização em instalações nucleares reais.
-
-### **Limitações do Protótipo**
-
-Por se tratar de um projeto acadêmico, o Sentinela utilizará dados fictícios e arquivos demonstrativos para simular situações de monitoramento. Dessa forma, os resultados obtidos terão finalidade exclusivamente demonstrativa e não representarão validação operacional em ambientes críticos reais.
+## **7. Arquitetura Conceitual e Funcionamento**
+A arquitetura proposta segue um fluxo de recebimento, análise, correlação e apresentação de eventos.
+Fluxo conceitual:
+1. Dispositivos simulados geram eventos e informações.
+2. A plataforma recebe e centraliza os dados.
+3. Os dados são encaminhados para os mecanismos de análise correspondentes.
+4. Eventos fora dos padrões definidos são identificados.
+5. O sistema verifica a existência de eventos relacionados.
+6. Os eventos são correlacionados por horário, localização e contexto.
+7. A plataforma gera um alerta contextualizado.
+8. O operador analisa a ocorrência e confirma ou descarta o alerta.
+9. O resultado é registrado no histórico para consulta e auditoria.
+A arquitetura poderá utilizar tecnologias como React, Python, FastAPI, OpenCV, YOLO e PostgreSQL. Essas tecnologias representam opções iniciais e poderão ser ajustadas durante o desenvolvimento.
 
 
-## **Benefícios Esperados**
+##  **8. Escopo do Projeto**
+## ** 8.1 Dentro do escopo**
+- Desenvolvimento de uma aplicação web.
+- Dashboard para visualização de indicadores.
+- Simulação de sensores e dispositivos.
+- Análise de imagens e vídeos demonstrativos.
+- Detecção de objetos por visão computacional.
+- Identificação de anomalias por regras configuráveis.
+- Correlação básica de eventos.
+- Geração e classificação de alertas.
+- Visualização de localização simulada dos dispositivos e ocorrências.
+- Registro de histórico e decisões dos operadores.
 
-O desenvolvimento do Sentinela busca proporcionar melhorias no monitoramento e na análise de informações provenientes de diferentes fontes, contribuindo para uma identificação mais organizada e contextualizada de possíveis anomalias em ambientes críticos.
 
-Entre os principais benefícios esperados, destacam-se:
+## **8.2 Fora do escopo**
+- Controle físico de drones ou voos autônomos.
+- Instalação de sensores em ambientes reais.
+- Integração com sistemas operacionais da AMAZUL ou da Marinha.
+- Reconhecimento facial ou identificação biométrica.
+- Detecção ou diagnóstico de radiação.
+- Execução automática de respostas físicas a incidentes.
+- Substituição dos profissionais responsáveis pela segurança.
+- Certificação para utilização em instalações nucleares.
 
-- **Centralização das informações:** reunir dados provenientes de diferentes fontes de monitoramento em uma única plataforma, facilitando o acesso e a visualização das informações.
+##** 8.3 Limitações**
+O SENTINELA será desenvolvido como um projeto acadêmico demonstrativo. Portanto, utilizará dados simulados e arquivos de demonstração, sem representar uma solução validada ou certificada para operação em ambientes nucleares reais.
 
-- **Identificação de anomalias:** utilizar regras configuráveis e técnicas de visão computacional para identificar eventos que apresentem comportamentos fora dos padrões estabelecidos.
 
-- **Correlação de eventos:** relacionar ocorrências com base em horário, localização e tipo de evento, permitindo uma análise mais abrangente das situações identificadas.
+## **9. Benefícios Esperados**
+A implementação do SENTINELA poderá proporcionar os seguintes benefícios conceituais:
+- Centralização: reunir informações de diferentes fontes em uma única plataforma.
+- Identificação de anomalias: facilitar a identificação de eventos fora dos padrões definidos.
+- Correlação de eventos: permitir a análise conjunta de ocorrências relacionadas.
+- Agilidade operacional: apresentar alertas com informações relevantes para análise.
+- Apoio à decisão: fornecer contexto e evidências para os operadores.
+- Rastreabilidade: manter registros de eventos e decisões.
+- Expansibilidade: permitir a inclusão futura de novas fontes de dados e mecanismos de análise.
 
-- **Agilidade na análise:** apresentar alertas contextualizados com informações relevantes e evidências, reduzindo o esforço necessário para compreender determinadas ocorrências.
+## **10. Protótipo Conceitual**
+O protótipo de baixa fidelidade foi desenvolvido no Figma com o objetivo de representar a organização das principais funcionalidades e a experiência de utilização da plataforma.
 
-- **Apoio à tomada de decisão:** disponibilizar informações organizadas para que os operadores possam avaliar os alertas e decidir sobre as ações necessárias.
-
-- **Rastreabilidade das ocorrências:** manter registros históricos dos eventos identificados e das decisões dos operadores, facilitando consultas e análises posteriores.
-
-- **Flexibilidade e expansão:** estabelecer uma estrutura que permita, futuramente, incorporar novas fontes de dados, dispositivos e mecanismos de análise.
-
-Dessa forma, o Sentinela pretende transformar informações dispersas em dados organizados e contextualizados, contribuindo para um monitoramento mais integrado e para o apoio à tomada de decisão humana.
+Ele é composto por quatro telas principais:
+<img width="940" height="605" alt="Dashboard" src="https://github.com/user-attachments/assets/4d98074a-46af-47c9-8d9c-3d222577b941" />
