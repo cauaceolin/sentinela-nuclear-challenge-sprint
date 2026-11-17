@@ -7,7 +7,7 @@ O projeto propõe a utilização de tecnologias como Internet das Coisas (IoT), 
 
 Nesta primeira etapa, será desenvolvido um protótipo acadêmico utilizando dados simulados e arquivos demonstrativos, sem conexão com equipamentos ou instalações reais.
 
-## **2. Contexto do Problema/**
+## **2. Contexto do Problema**
 Ambientes críticos exigem monitoramento contínuo e análise de informações provenientes de diferentes fontes. Entretanto, quando esses dados são apresentados de maneira isolada, torna-se mais difícil identificar relações entre eventos, reconhecer comportamentos fora do padrão e acompanhar ocorrências de forma centralizada.
 
 Por exemplo, uma abertura inesperada de acesso pode parecer um evento isolado. Porém, quando relacionada a uma detecção de movimento em uma área restrita e a informações de sensores próximos, pode representar uma situação que merece investigação.
