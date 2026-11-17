@@ -66,7 +66,7 @@ Os requisitos não funcionais estabelecem características de qualidade, desempe
 | ID | Requisito | Descrição |
 |---|---|---|
 | RNF01 | Usabilidade | A interface deve apresentar informações de maneira clara e organizada, facilitando a compreensão e a utilização pelos operadores. |
-| RNF02 | Desempenho | O sistema deve processar eventos simulados e apresentar os alertas correspondentes em até 5 segundos após o recebimento do evento, considerando as condições do ambiente de demonstração. |
+| RNF02 | Desempenho | O sistema deve processar eventos simulados e apresentar os alertas correspondentes em até 5 segundos após o recebimento do evento, considerando as condições do ambiente de demonstração e desconsiderando o tempo de processamento de arquivos de vídeo. |
 | RNF03 | Segurança | O acesso às funcionalidades administrativas deve exigir autenticação, restringindo sua utilização a usuários autorizados. |
 | RNF04 | Rastreabilidade | O sistema deve manter registros das ocorrências e das decisões realizadas pelos operadores, permitindo consultas posteriores. |
 | RNF05 | Manutenibilidade | A arquitetura deve permitir alterações e inclusão de novas fontes de dados e regras de detecção sem exigir modificações significativas em toda a aplicação. |
