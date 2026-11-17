@@ -30,7 +30,6 @@ Desenvolver uma plataforma de monitoramento inteligente capaz de centralizar dad
 - Permitir que operadores analisem, confirmem ou descartem alertas.
 - Registrar ocorrências e decisões para consulta e auditoria.
 
-
 ## **4. Stakeholders**
 
 Os stakeholders do projeto Sentinela correspondem aos perfis de pessoas e grupos que possuem interesse, participação ou influência no funcionamento da solução proposta.
@@ -42,8 +41,6 @@ Os stakeholders do projeto Sentinela correspondem aos perfis de pessoas e grupos
 | Administrador do sistema | Responsável pela configuração e manutenção técnica da plataforma. | Gerenciar dispositivos, usuários e regras de detecção. | Acesso administrativo, configuração e estabilidade. | Médio |
 | Equipe de manutenção e inspeção | Profissionais que verificam equipamentos e instalações quando necessário. | Verificar ocorrências relevantes e realizar inspeções. | Localização, horário e evidências das ocorrências. | Médio |
 | Gestão da organização | Representa os responsáveis pela gestão estratégica e operacional. | Avaliar resultados e acompanhar indicadores. | Rastreabilidade, relatórios e visão consolidada. | Alto |
-
-
 
 ## **5. Requisitos do Sistema**
 ## **5.1 Requisitos funcionais**
@@ -131,7 +128,7 @@ A arquitetura poderá utilizar tecnologias como React, Python, FastAPI, OpenCV, 
 - Substituição dos profissionais responsáveis pela segurança.
 - Certificação para utilização em instalações nucleares.
 
-##** 8.3 Limitações**
+## ** 8.3 Limitações**
 O SENTINELA será desenvolvido como um projeto acadêmico demonstrativo. Portanto, utilizará dados simulados e arquivos de demonstração, sem representar uma solução validada ou certificada para operação em ambientes nucleares reais.
 
 
@@ -152,21 +149,23 @@ Ele é composto por quatro telas principais:
 
 ## **10.1 Dashboard**
 Apresenta indicadores gerais, estado dos dispositivos monitorados e eventos recentes.
+
 <img width="940" height="605" alt="Dashboard" src="https://github.com/user-attachments/assets/4d98074a-46af-47c9-8d9c-3d222577b941" />
 
 ## **10.2 Mapa de Monitoramento**
 Representa a instalação fictícia, suas zonas e a localização simulada dos dispositivos.
+
 <img width="932" height="608" alt="Mapa" src="https://github.com/user-attachments/assets/3ad3d31f-86da-478e-925f-cef5a3c18e44" /> 
 
 ## **10.3 Central de Alertas**
 Apresenta ocorrências identificadas, prioridade, evidências e ações de confirmação ou descarte.
+
 <img width="933" height="620" alt="Alertas" src="https://github.com/user-attachments/assets/8adae0fd-29eb-4c1a-94eb-d9bc7c8702f7" />
 
 ## **10.4 Histórico e Auditoria**
 Permite consultar ocorrências anteriores, decisões dos operadores e informações registradas.
-<img width="893" height="566" alt="Histórico" src="https://github.com/user-attachments/assets/6009a9c4-a474-47ad-8840-8c5018521a0c" />
 
-As imagens definitivas desta seção devem ser capturas das quatro telas que você construiu no Figma, não imagens ilustrativas. Inclua também uma breve legenda para cada captura.
+<img width="892" height="575" alt="Histórico" src="https://github.com/user-attachments/assets/1b7edc13-8d8c-4d8b-a301-fecc84fb17bd" />
 
 ## **11. Conclusão**
 O projeto SENTINELA apresenta uma proposta de solução tecnológica voltada à centralização de informações, detecção de anomalias e correlação de eventos em ambientes críticos.
