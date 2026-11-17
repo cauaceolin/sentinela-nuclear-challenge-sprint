@@ -90,6 +90,21 @@ A correlação permitirá relacionar eventos que, individualmente, poderiam pare
 A plataforma funcionará como ferramenta de apoio à decisão. A confirmação ou o descarte de uma ocorrência permanecerá sob responsabilidade do operador.
 
 ## **7. Arquitetura Conceitual e Funcionamento**
+
+Arquitetura
+- Figura 01 — Fluxograma de Detecção e Tratamento de Anomalias (Parte 1).
+<img width="443" height="618" alt="Arquitetura_1" src="https://github.com/user-attachments/assets/57150d4f-ea93-4b86-a138-0cb3a7a5dadb" />
+
+- Figura 02 — Fluxograma de Detecção e Tratamento de Anomalias (Parte 2).
+<img width="442" height="593" alt="Arquitetura_2" src="https://github.com/user-attachments/assets/57c1c542-5732-45b2-9b02-e09737add6de" />
+
+Fluxograma
+Figura 03 — Arquitetura Conceitual do SENTINELA (Parte 1).
+<img width="283" height="442" alt="Anomalia_1" src="https://github.com/user-attachments/assets/ab06b88f-9bef-4a0c-b1a4-483a65b58cee" />
+
+Figura 04 — Arquitetura Conceitual do SENTINELA (Parte 2).
+<img width="413" height="545" alt="Anomalia_2" src="https://github.com/user-attachments/assets/04ef0aeb-3d80-4cf8-bd28-a99592b5cb52" />
+
 A arquitetura proposta segue um fluxo de recebimento, análise, correlação e apresentação de eventos.
 Fluxo conceitual:
 1. Dispositivos simulados geram eventos e informações.
@@ -104,8 +119,8 @@ Fluxo conceitual:
 A arquitetura poderá utilizar tecnologias como React, Python, FastAPI, OpenCV, YOLO e PostgreSQL. Essas tecnologias representam opções iniciais e poderão ser ajustadas durante o desenvolvimento.
 
 
-##  **8. Escopo do Projeto**
-## ** 8.1 Dentro do escopo**
+## **8. Escopo do Projeto**
+## **8.1 Dentro do escopo**
 - Desenvolvimento de uma aplicação web.
 - Dashboard para visualização de indicadores.
 - Simulação de sensores e dispositivos.
@@ -128,7 +143,7 @@ A arquitetura poderá utilizar tecnologias como React, Python, FastAPI, OpenCV, 
 - Substituição dos profissionais responsáveis pela segurança.
 - Certificação para utilização em instalações nucleares.
 
-## ** 8.3 Limitações**
+## **8.3 Limitações**
 O SENTINELA será desenvolvido como um projeto acadêmico demonstrativo. Portanto, utilizará dados simulados e arquivos de demonstração, sem representar uma solução validada ou certificada para operação em ambientes nucleares reais.
 
 
