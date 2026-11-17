@@ -99,10 +99,10 @@ Arquitetura
 <img width="442" height="593" alt="Arquitetura_2" src="https://github.com/user-attachments/assets/57c1c542-5732-45b2-9b02-e09737add6de" />
 
 Fluxograma
-Figura 03 — Arquitetura Conceitual do SENTINELA (Parte 1).
+- Figura 03 — Arquitetura Conceitual do SENTINELA (Parte 1).
 <img width="283" height="442" alt="Anomalia_1" src="https://github.com/user-attachments/assets/ab06b88f-9bef-4a0c-b1a4-483a65b58cee" />
 
-Figura 04 — Arquitetura Conceitual do SENTINELA (Parte 2).
+- Figura 04 — Arquitetura Conceitual do SENTINELA (Parte 2).
 <img width="413" height="545" alt="Anomalia_2" src="https://github.com/user-attachments/assets/04ef0aeb-3d80-4cf8-bd28-a99592b5cb52" />
 
 A arquitetura proposta segue um fluxo de recebimento, análise, correlação e apresentação de eventos.
