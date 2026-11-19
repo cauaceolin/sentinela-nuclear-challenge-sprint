@@ -23,7 +23,7 @@ O planejamento contempla as seguintes funcionalidades:
 - Exibição de indicadores e informações consolidadas em um painel.
 Os testes serão realizados em ambiente acadêmico e demonstrativo, utilizando dados simulados e arquivos de demonstração. Não haverá integração com equipamentos ou instalações reais.
 
-##**3. Estratégia de testes**
+## **3. Estratégia de testes**
 Os testes serão planejados com base nos requisitos funcionais (RF01 a RF09) e não funcionais (RNF01 a RNF06) do Documento de Visão.
 
 Serão considerados:
